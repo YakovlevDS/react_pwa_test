@@ -1,7 +1,24 @@
+
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "myApp",
+  "short_name": "App",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#fff",
+  "description": "A readable app.",
+  
+  
+  
+  
+
   "icons": [
+    {
+      "src": "maskable_icon.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
@@ -17,9 +34,5 @@
       "type": "image/png",
       "sizes": "512x512"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ]
 }
